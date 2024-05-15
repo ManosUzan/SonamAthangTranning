@@ -8,7 +8,7 @@ class gofithead extends StatelessWidget {
     return Container(
   child: const Row(
     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-    crossAxisAlignment: CrossAxisAlignment.start,
+    crossAxisAlignment: CrossAxisAlignment.end, 
     children: [
       Expanded(
         child: Text(
@@ -16,11 +16,18 @@ class gofithead extends StatelessWidget {
           style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
         ),
       ),
-      Icon(Icons.arrow_back),
-      Icon(Icons.arrow_forward),
+      Row( 
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Icon(Icons.arrow_back),
+          SizedBox(width: 20.0),
+          Icon(Icons.arrow_forward),
+        ],
+      ),
     ],
   ),
 );
+
 
   }
 }

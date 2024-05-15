@@ -14,8 +14,8 @@ class planetcard extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Container(
-              width: 200,
-              height: 300,
+              width: 150,
+              height: 200,
               child: Image.network(
                   "https://th.bing.com/th/id/OIP.hF8_3tDhRrZvxm-j1kZwgwHaE9?w=3872&h=2592&rs=1&pid=ImgDetMain",
                   fit: BoxFit.cover)),

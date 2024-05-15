@@ -22,10 +22,10 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      // home: const planetlanding(),
+      home: const planetlanding(),
       // home: const home(),
       // home: const day2tours(),
-      home: const day2gofit(),
+      // home: const day2gofit(),
     );
   }
 }

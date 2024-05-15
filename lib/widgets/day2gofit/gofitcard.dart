@@ -16,7 +16,7 @@ class gofitcard extends StatelessWidget {
         children: [
         Container(
           width:double.infinity,
-          height: 200,
+          height: 175,
           child: ClipRRect(
             borderRadius:
                 BorderRadius.circular(15), 

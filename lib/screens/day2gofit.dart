@@ -16,7 +16,7 @@ class day2gofit extends StatelessWidget {
           child: const Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-               Text("G*FIT", style: TextStyle(fontWeight: FontWeight.bold,fontSize: 24),),
+               Text("G*FIT", style: TextStyle(fontWeight: FontWeight.bold,fontSize: 18),),
               Icon(Icons.menu)
             ],
           ),
