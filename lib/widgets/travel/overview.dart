@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_day1/widgets/planet_day2/mediumcard.dart';
 
-class latestproduct extends StatelessWidget {
-  const latestproduct({super.key});
+class overview extends StatelessWidget {
+  const overview({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -14,13 +13,11 @@ class latestproduct extends StatelessWidget {
         children: [
           Row(
             children: [
-              Text('Latest Product',style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),),
-              
+              Text('Overview',style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),),
+              Text("Review"),
             ],
           ),
-          
-          mediumcard(),
-          mediumcard(),
+        
         ],
       ),
     );

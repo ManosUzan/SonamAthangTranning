@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_day1/screens/beautyhome.dart';
 import 'package:flutter_day1/screens/day2gofit.dart';
 import 'package:flutter_day1/screens/day2tours.dart';
 import 'package:flutter_day1/screens/home.dart';
 import 'package:flutter_day1/screens/planetlanding.dart';
+import 'package:flutter_day1/screens/travel/hometravel.dart';
+import 'package:flutter_day1/screens/travel/introtravel.dart';
 
 
 
@@ -26,6 +29,9 @@ class MyApp extends StatelessWidget {
       // home: const home(),
       // home: const day2tours(),
       // home: const day2gofit(),
+      // home: const beautyhome(),
+      // home: const introtravel(),
+      // home: travelhome(),
     );
   }
 }
